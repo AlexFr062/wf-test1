@@ -1,0 +1,146 @@
+﻿2025-05-12T10:32:47.8332276Z Current runner version: '2.323.0'
+2025-05-12T10:32:47.8356339Z ##[group]Operating System
+2025-05-12T10:32:47.8357096Z Ubuntu
+2025-05-12T10:32:47.8357547Z 24.04.2
+2025-05-12T10:32:47.8358091Z LTS
+2025-05-12T10:32:47.8358527Z ##[endgroup]
+2025-05-12T10:32:47.8359329Z ##[group]Runner Image
+2025-05-12T10:32:47.8359958Z Image: ubuntu-24.04
+2025-05-12T10:32:47.8360500Z Version: 20250504.1.0
+2025-05-12T10:32:47.8361522Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20250504.1/images/ubuntu/Ubuntu2404-Readme.md
+2025-05-12T10:32:47.8362907Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20250504.1
+2025-05-12T10:32:47.8363806Z ##[endgroup]
+2025-05-12T10:32:47.8364276Z ##[group]Runner Image Provisioner
+2025-05-12T10:32:47.8364908Z 2.0.422.1
+2025-05-12T10:32:47.8365344Z ##[endgroup]
+2025-05-12T10:32:47.8366352Z ##[group]GITHUB_TOKEN Permissions
+2025-05-12T10:32:47.8368945Z Contents: read
+2025-05-12T10:32:47.8369865Z Metadata: read
+2025-05-12T10:32:47.8371078Z Packages: read
+2025-05-12T10:32:47.8372076Z ##[endgroup]
+2025-05-12T10:32:47.8374615Z Secret source: Actions
+2025-05-12T10:32:47.8376393Z Prepare workflow directory
+2025-05-12T10:32:47.8713654Z Prepare all required actions
+2025-05-12T10:32:47.8750339Z Getting action download info
+2025-05-12T10:32:48.3250619Z ##[group]Download immutable action package 'actions/checkout@v4'
+2025-05-12T10:32:48.3251622Z Version: 4.2.2
+2025-05-12T10:32:48.3252709Z Digest: sha256:ccb2698953eaebd21c7bf6268a94f9c26518a7e38e27e0b83c1fe1ad049819b1
+2025-05-12T10:32:48.3253876Z Source commit SHA: 11bd71901bbe5b1630ceea73d27597364c9af683
+2025-05-12T10:32:48.3254583Z ##[endgroup]
+2025-05-12T10:32:48.4875986Z Complete job name: Explore-GitHub-Actions
+2025-05-12T10:32:48.5416557Z ##[group]Run echo "The job was automatically triggered by a push event."
+2025-05-12T10:32:48.5417444Z [36;1mecho "The job was automatically triggered by a push event."[0m
+2025-05-12T10:32:48.5446508Z shell: /usr/bin/bash -e {0}
+2025-05-12T10:32:48.5447242Z ##[endgroup]
+2025-05-12T10:32:48.5565055Z The job was automatically triggered by a push event.
+2025-05-12T10:32:48.5642950Z ##[group]Run echo "This job is now running on a Linux server hosted by GitHub!"
+2025-05-12T10:32:48.5643843Z [36;1mecho "This job is now running on a Linux server hosted by GitHub!"[0m
+2025-05-12T10:32:48.5667865Z shell: /usr/bin/bash -e {0}
+2025-05-12T10:32:48.5668325Z ##[endgroup]
+2025-05-12T10:32:48.5712983Z This job is now running on a Linux server hosted by GitHub!
+2025-05-12T10:32:48.5746338Z ##[group]Run echo "The name of your branch is refs/heads/main and your repository is AlexFr062/wf-test1."
+2025-05-12T10:32:48.5747479Z [36;1mecho "The name of your branch is refs/heads/main and your repository is AlexFr062/wf-test1."[0m
+2025-05-12T10:32:48.5770635Z shell: /usr/bin/bash -e {0}
+2025-05-12T10:32:48.5771094Z ##[endgroup]
+2025-05-12T10:32:48.5814346Z The name of your branch is refs/heads/main and your repository is AlexFr062/wf-test1.
+2025-05-12T10:32:48.5919600Z ##[group]Run actions/checkout@v4
+2025-05-12T10:32:48.5920145Z with:
+2025-05-12T10:32:48.5920522Z   repository: AlexFr062/wf-test1
+2025-05-12T10:32:48.5921122Z   token: ***
+2025-05-12T10:32:48.5921494Z   ssh-strict: true
+2025-05-12T10:32:48.5921877Z   ssh-user: git
+2025-05-12T10:32:48.5922260Z   persist-credentials: true
+2025-05-12T10:32:48.5922694Z   clean: true
+2025-05-12T10:32:48.5923074Z   sparse-checkout-cone-mode: true
+2025-05-12T10:32:48.5923536Z   fetch-depth: 1
+2025-05-12T10:32:48.5923909Z   fetch-tags: false
+2025-05-12T10:32:48.5924298Z   show-progress: true
+2025-05-12T10:32:48.5924687Z   lfs: false
+2025-05-12T10:32:48.5925045Z   submodules: false
+2025-05-12T10:32:48.5925441Z   set-safe-directory: true
+2025-05-12T10:32:48.5925859Z ##[endgroup]
+2025-05-12T10:32:48.7544545Z Syncing repository: AlexFr062/wf-test1
+2025-05-12T10:32:48.7546433Z ##[group]Getting Git version info
+2025-05-12T10:32:48.7547109Z Working directory is '/home/runner/work/wf-test1/wf-test1'
+2025-05-12T10:32:48.7548073Z [command]/usr/bin/git version
+2025-05-12T10:32:48.7599078Z git version 2.49.0
+2025-05-12T10:32:48.7626529Z ##[endgroup]
+2025-05-12T10:32:48.7642597Z Temporarily overriding HOME='/home/runner/work/_temp/0ae5a334-7d73-4253-839b-f6f8eb21b23a' before making global git config changes
+2025-05-12T10:32:48.7644965Z Adding repository directory to the temporary git global config as a safe directory
+2025-05-12T10:32:48.7656057Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/wf-test1/wf-test1
+2025-05-12T10:32:48.7689303Z Deleting the contents of '/home/runner/work/wf-test1/wf-test1'
+2025-05-12T10:32:48.7693456Z ##[group]Initializing the repository
+2025-05-12T10:32:48.7698235Z [command]/usr/bin/git init /home/runner/work/wf-test1/wf-test1
+2025-05-12T10:32:48.7756684Z hint: Using 'master' as the name for the initial branch. This default branch name
+2025-05-12T10:32:48.7758103Z hint: is subject to change. To configure the initial branch name to use in all
+2025-05-12T10:32:48.7759227Z hint: of your new repositories, which will suppress this warning, call:
+2025-05-12T10:32:48.7760277Z hint:
+2025-05-12T10:32:48.7760944Z hint: 	git config --global init.defaultBranch <name>
+2025-05-12T10:32:48.7761721Z hint:
+2025-05-12T10:32:48.7762683Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2025-05-12T10:32:48.7764302Z hint: 'development'. The just-created branch can be renamed via this command:
+2025-05-12T10:32:48.7765574Z hint:
+2025-05-12T10:32:48.7766252Z hint: 	git branch -m <name>
+2025-05-12T10:32:48.7767520Z Initialized empty Git repository in /home/runner/work/wf-test1/wf-test1/.git/
+2025-05-12T10:32:48.7774173Z [command]/usr/bin/git remote add origin https://github.com/AlexFr062/wf-test1
+2025-05-12T10:32:48.7807092Z ##[endgroup]
+2025-05-12T10:32:48.7808243Z ##[group]Disabling automatic garbage collection
+2025-05-12T10:32:48.7812388Z [command]/usr/bin/git config --local gc.auto 0
+2025-05-12T10:32:48.7840770Z ##[endgroup]
+2025-05-12T10:32:48.7841934Z ##[group]Setting up auth
+2025-05-12T10:32:48.7848203Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2025-05-12T10:32:48.7878949Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2025-05-12T10:32:48.8160247Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2025-05-12T10:32:48.8190539Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2025-05-12T10:32:48.8412186Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2025-05-12T10:32:48.8446032Z ##[endgroup]
+2025-05-12T10:32:48.8446792Z ##[group]Fetching the repository
+2025-05-12T10:32:48.8454785Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +9605724c7dc990b6d7f5b88347c76f11a0236d86:refs/remotes/origin/main
+2025-05-12T10:32:49.4753786Z From https://github.com/AlexFr062/wf-test1
+2025-05-12T10:32:49.4756763Z  * [new ref]         9605724c7dc990b6d7f5b88347c76f11a0236d86 -> origin/main
+2025-05-12T10:32:49.4784944Z ##[endgroup]
+2025-05-12T10:32:49.4786279Z ##[group]Determining the checkout info
+2025-05-12T10:32:49.4787930Z ##[endgroup]
+2025-05-12T10:32:49.4794270Z [command]/usr/bin/git sparse-checkout disable
+2025-05-12T10:32:49.4834653Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2025-05-12T10:32:49.4864217Z ##[group]Checking out the ref
+2025-05-12T10:32:49.4869464Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+2025-05-12T10:32:49.4923816Z Switched to a new branch 'main'
+2025-05-12T10:32:49.4925788Z branch 'main' set up to track 'origin/main'.
+2025-05-12T10:32:49.4932835Z ##[endgroup]
+2025-05-12T10:32:49.4966943Z [command]/usr/bin/git log -1 --format=%H
+2025-05-12T10:32:49.4989196Z 9605724c7dc990b6d7f5b88347c76f11a0236d86
+2025-05-12T10:32:49.5118112Z ##[group]Run echo "The AlexFr062/wf-test1 repository has been cloned to the runner."
+2025-05-12T10:32:49.5120573Z [36;1mecho "The AlexFr062/wf-test1 repository has been cloned to the runner."[0m
+2025-05-12T10:32:49.5147082Z shell: /usr/bin/bash -e {0}
+2025-05-12T10:32:49.5147808Z ##[endgroup]
+2025-05-12T10:32:49.5197006Z The AlexFr062/wf-test1 repository has been cloned to the runner.
+2025-05-12T10:32:49.5243706Z ##[group]Run echo "The workflow is now ready to test your code on the runner."
+2025-05-12T10:32:49.5245293Z [36;1mecho "The workflow is now ready to test your code on the runner."[0m
+2025-05-12T10:32:49.5269702Z shell: /usr/bin/bash -e {0}
+2025-05-12T10:32:49.5270403Z ##[endgroup]
+2025-05-12T10:32:49.5316244Z The workflow is now ready to test your code on the runner.
+2025-05-12T10:32:49.5362240Z ##[group]Run ls /home/runner/work/wf-test1/wf-test1
+2025-05-12T10:32:49.5363282Z [36;1mls /home/runner/work/wf-test1/wf-test1[0m
+2025-05-12T10:32:49.5390733Z shell: /usr/bin/bash -e {0}
+2025-05-12T10:32:49.5391712Z ##[endgroup]
+2025-05-12T10:32:49.5501605Z README.md
+2025-05-12T10:32:49.5502565Z step01
+2025-05-12T10:32:49.5554776Z ##[group]Run echo "This job's status is success."
+2025-05-12T10:32:49.5555755Z [36;1mecho "This job's status is success."[0m
+2025-05-12T10:32:49.5579839Z shell: /usr/bin/bash -e {0}
+2025-05-12T10:32:49.5580492Z ##[endgroup]
+2025-05-12T10:32:49.5626085Z This job's status is success.
+2025-05-12T10:32:49.5758233Z Post job cleanup.
+2025-05-12T10:32:49.6710463Z [command]/usr/bin/git version
+2025-05-12T10:32:49.6748030Z git version 2.49.0
+2025-05-12T10:32:49.6795694Z Temporarily overriding HOME='/home/runner/work/_temp/922121a9-3714-4861-a054-bfeedd9ebeda' before making global git config changes
+2025-05-12T10:32:49.6798453Z Adding repository directory to the temporary git global config as a safe directory
+2025-05-12T10:32:49.6801124Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/wf-test1/wf-test1
+2025-05-12T10:32:49.6835370Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2025-05-12T10:32:49.6867984Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2025-05-12T10:32:49.7092774Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2025-05-12T10:32:49.7111949Z http.https://github.com/.extraheader
+2025-05-12T10:32:49.7125202Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2025-05-12T10:32:49.7155839Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2025-05-12T10:32:49.7491446Z Cleaning up orphan processes
